@@ -12,11 +12,8 @@ const Nav = () => {
       <Link href="/ssr">
         <a>SSR</a>
       </Link>
-        <Link href="/btn">
-            <a>BTN</a>
-        </Link>
-        <Link href="/step_one">
-            <a>BTN</a>
+        <Link href="/choose_time">
+            <a>Step One</a>
         </Link>
       <style jsx>
         {`
