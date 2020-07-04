@@ -15,6 +15,9 @@ const Nav = () => {
         <Link href="/btn">
             <a>BTN</a>
         </Link>
+        <Link href="/step_one">
+            <a>BTN</a>
+        </Link>
       <style jsx>
         {`
           a {

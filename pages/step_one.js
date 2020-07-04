@@ -1,8 +1,9 @@
-import Btn from "../components/button";
+import React from 'react';
+import StepOne from "../components/StepOne";
 import {initializeStore} from "../store";
 
 export default function SSR() {
-    return <Btn />
+    return <StepOne />
 }
 
 export function getServerSideProps() {

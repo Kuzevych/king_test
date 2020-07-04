@@ -24,14 +24,6 @@ const Btn = () =>{
             <div className={classes.div}>
                 <Button variant="outlined" color="primary">Hello World</Button>
                 <TextField id="standard-basic" label="Text" />
-                <TextField
-                    error
-                    id="filled-error-helper-text"
-                    label="Error"
-                    defaultValue=""
-                    helperText="Incorrect entry."
-                    variant="filled"
-                />
             </div>
         </>
     )
