@@ -12,10 +12,13 @@ const Nav = () => {
       <Link href="/ssr">
         <a>SSR</a>
       </Link>
+        <Link href="/btn">
+            <a>BTN</a>
+        </Link>
       <style jsx>
         {`
           a {
-            margin-right: 25px;
+            margin-right: 30px;
           }
         `}
       </style>
