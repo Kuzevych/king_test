@@ -1,6 +1,6 @@
 import React from "react";
-import Page from '../components/page'
+import DateAndTime from "../components/DateAndTime/DateAndTime";
 
 export default function Index() {
-  return <Page />
+  return <DateAndTime />
 }

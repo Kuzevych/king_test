@@ -1,9 +1,9 @@
-export const changeTime = 'CHANGE_HOUR'
+export const changeTime = 'CHANGE_DATE_AND_TIME'
 
 
 export  const ChangeTime = (time) => {
     return {
         type: changeTime,
-        payload: time
+        time: time
     }
 }

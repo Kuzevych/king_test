@@ -1,9 +1,9 @@
 import React from 'react';
-import DateAndTime from "../components/DateAndTime/DateAndTime";
 import {initializeStore} from "../store";
+import Address from "../components/ChooseAddress/Address";
 
 export default function SSR() {
-    return <DateAndTime />
+    return <Address />
 }
 
 export function getServerSideProps() {

@@ -12,7 +12,7 @@ import {
     MuiPickersUtilsProvider,
 } from '@material-ui/pickers';
 import {useDispatch} from "react-redux";
-import {ChangeTime} from "./StepOne.action";
+import { ChangeTime } from "./DateAndTime.action";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -56,9 +56,9 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const StepOne = () =>{
+const DateAndTime = () =>{
     const dispatch = useDispatch();
-    const [selectedDate, handleDateChange] = useState(new Date("2020-07-05T00:00:00.000Z"));
+    const [selectedDate, handleDateChange] = useState(new Date());
     const classes = useStyles();
 
     const handleTime = (time) => {
@@ -102,9 +102,9 @@ const StepOne = () =>{
                         </MuiPickersUtilsProvider>
 
                     </Typography>
-             <Link href="/choose_addres">
+             <Link href="/choose_address">
                  <Button variant="contained" color="primary">
-                     Next Step
+                     Next
                  </Button>
             </Link>
             </Container>
@@ -112,4 +112,4 @@ const StepOne = () =>{
     )
 }
 
-export default StepOne
+export default DateAndTime

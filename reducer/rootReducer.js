@@ -1,7 +1,9 @@
-import {changeTime} from "../components/StepOne/StepOne.action";
+import {changeTime} from "../components/DateAndTime/DateAndTime.action";
+import {changeAddress} from "../components/ChooseAddress/Address.action";
 
 export const initialState = {
-    time: ''
+    time: '',
+    address: {}
 }
 
 const rootReducer = (state = initialState, action) =>{
@@ -9,8 +11,14 @@ const rootReducer = (state = initialState, action) =>{
         case changeTime:
             return {
                 ...state,
-                time: action.payload
+                time: action.time
             }
+        case changeAddress: {
+            return {
+                ...state,
+                address: action.address
+            }
+        }
         default:
             return state
     }

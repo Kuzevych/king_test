@@ -14,11 +14,16 @@
     "formik": "^2.1.4",
     "next": "latest",
     "react": "^16.9.0",
+    "react-google-places-autocomplete": "^2.1.0",
     "react-datepicker": "^3.0.0",
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.0",
     "redux": "^3.6.0",
     "redux-devtools-extension": "^2.13.2"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "google-map-react": "^1.1.7",
+    "react-pure-render": "^1.0.2"
+  }
 }
